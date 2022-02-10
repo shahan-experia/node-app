@@ -58,7 +58,7 @@ const PORT = process.env.PORT || 3000;
 
 			app.get('/api/v1', (req, res) => {
 				console.log('Yeah, it ran...');
-				res.send('<h2>hey there!!!</h2>');
+				res.send('<h2>hey there</h2>');
 			});
 
 			app.use('/api/v1/posts', postRouter);
